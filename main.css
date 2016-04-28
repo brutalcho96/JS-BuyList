@@ -1,1 +1,320 @@
 
+body {
+
+    background-image: url('https://pixabay.com/static/uploads/photo/2015/01/22/23/13/sandwich-608472_960_720.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 220px 290px;
+    background-color: white;
+}
+
+.mainForm {
+    width: 55%;
+    height: 25%;
+    float: left;
+    margin-left: 10%;
+    background-color: #ff99d0;
+    box-shadow: 6px 6px 2px #ae2a33;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    margin-top: 5%;
+}
+.notBaught {
+    height: 30px;
+    width: 80px;
+    float: right;
+    margin: 10px 15px 10px 5px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0px 2px #b7b7b7;
+    float: right;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+input[type=text] {
+    position: fixed;;
+    width: 680px;
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid #d9d9d9;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    height: 15px;
+    background-color: white;
+    float: right;
+    /*position: relative;*/
+    color: #cbcbcb;
+    font-family: "Sans-serif";
+    font-size: 15px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #131955;
+    color: #131955;
+}
+
+input[type=NameOfProduct ] {
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #ff99d0;
+}
+
+input[type=NameOfProduct]:focus {
+    font-family: "Niagara Solid";
+    font-size: 15px;
+    color: #1923a8;
+    text-align: center;
+}
+
+#buttontoadd {
+    width: 120px;
+    height: 40px;
+    background-color: #2186cf;
+    border-radius: 4px;
+    border: 3px solid #131955;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    margin: 15px 15px 15px 605px;
+    position: absolute;
+}
+
+#buttontoadd:hover {
+    background-color: #1a6abb;
+}
+
+.ccc22 {
+    border: 1px solid #d9d9d9;
+    margin-top: 9%;
+}
+
+.name46 {
+    color: black;
+    font-weight: normal;
+    margin: 15px;
+    float: left;
+    font-size: 20px;
+    /* font-family: "Impact";*/
+    test-decoration: none;
+}
+
+.minus {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 10px 5px 10px 5px;
+    background-color: #ef1f1a;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #dc2a2a;
+    border-radius: 150px;
+
+    float: right;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.minus:hover {
+    background-color: #991e10;
+
+}
+
+.hrestyk {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 10px 15px 10px 0px;
+    background-color: #d92929;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #dc2a2a;
+    box-shadow: 0px 2px #c12525;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+.plus:hover {
+    background-color: #0d7e3f;
+}
+
+.quantity {
+    display: inline-block;
+    align: center;
+    height: 10px;
+    width: 10px;
+    background-color: #e6e6e6;
+    color: #313131;
+    margin: 10px 5px 10px 5px;
+    font-size: 12px;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    float: right;
+}
+
+.baught {
+    height: 30px;
+    width: 80px;
+    float: right;
+    margin: 10px 15px 10px 5px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0px 2px #b7b7b7;
+    float: right;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.baught:hover {
+    background-color: #bbbbbb;
+}
+
+.notBaught:hover {
+    background-color: #bbbbbb;
+}
+
+.hrestyk:hover {
+    background-color: #c62525;
+}
+
+/*right*/
+
+.secondForm {
+    margin-top: 5%;
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+    box-shadow: 6px 6px 2px #ae2a33;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    color: blue;
+}
+
+.form1111 {
+    background-color: #ff99d0;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-top: 1px solid #ababab;
+    box-shadow: 0px 3px 3px 0px #aeaeae;
+}
+
+.form1111:first-child {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.form1111:last-child {
+    border-radius: 0px 0px 4px 4px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Verdana";
+    padding: 10px;
+    margin: 0px;
+}
+
+#Form123 {
+    padding: 5px;
+    height: auto;
+}
+
+#Form345 {
+    padding: 5px;
+    height: auto;
+}
+
+.n48 {
+    display: inline-block;
+    padding: 5px 7px;
+    margin: 3px 2px;
+    height: auto;
+    width: auto;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+}
+
+.name {
+    font-size: 10px;
+    color: #555555;
+    font-family: "Verdana";
+    text-decoration: none;
+}
+
+.titleCrossed {
+    text-decoration: line-through;
+}
+
+.buttonofquantity {
+    text-align: center;
+    border-radius: 150px;
+    padding: 5px;
+    align: center;
+    height: 20px;
+    width: 20px;
+    background-color: #2d83f0;
+    color: white;
+    margin-left: 2px;
+    font-size: 10px;
+
+}
+.plus {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 10px 190px 10px 5px;
+    background-color: #56cb4f;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #28d25e;
+    border-radius: 150px;
+    float: right;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
